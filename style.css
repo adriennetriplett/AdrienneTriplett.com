@@ -1,0 +1,93 @@
+body{
+	background-color: #C98E00;
+	color: #4D4D4D;
+	font-size: 16px;
+	font-family: helvetica, arial,courier;
+	padding: 0px
+	margin: 0px;
+}
+
+.navbar {
+	background-color: white;
+	padding: 20px;
+	transition: background-color 0.2s;
+	color: #4D4D4D;
+	text-decoration: none;
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	padding-right: 100px;
+}
+
+.link {
+	color: #4D4D4D;
+	text-decoration: none;
+	width:  25%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.link:hover {
+	display: inline-block;
+	background-image: url("hoverhexagon.png");
+	background-size: responsive;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #4D4D4D;
+	transition: transform 1s;
+	transform: scale(1);
+}
+
+
+.logo {
+	background-image: url("ATlogo.png");
+	position: relative;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logohover {
+	opacity: 0;
+	display: inline-block;
+}
+
+.logohover:hover {
+	opacity: 1;
+	display: inline;
+}
+
+
+.responsive{
+	max-width: 100%;
+	height: auto;
+}
+
+.headshot {
+	align: inline-block;
+	padding-top: 2em;
+}	
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.single-service {
+	text-align: center;
+	margin-bottom: 32px;
+	width: 50%;
+	float: left;
+}
+
+.single-service p {
+	padding: 0px 16px;
+}
