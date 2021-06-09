@@ -5,72 +5,76 @@
 	<title>Adrienne Triplett - Portfolio</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
 	<link href="style.css" rel="stylesheet"/> 
-	<link rel="icon" href="hexagon-fill.svg"/>
+	<link rel="icon" href="hexagon-fill.jpg"/>
 </head>
+
 <body>
-
-
-	<div class="navbar">
-		<div class="logo">
-		<a href="index.html"><img class="logohover" src="ATlogo-yellow.png"/></a>
+		
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand my-5 mx-5" href="index.html"> 
+			<img src="ATlogo.png"
+				onmouseover="this.src='ATlogo-yellow.png';"
+				onmouseout="this.src='ATlogo.png';">
+		</a>
+		<button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link link" href="about.html"> &ensp; About &ensp; </a>
+				<a class="nav-item nav-link link" href="portfolio.html">Portfolio</a>
+				<a class="nav-item nav-link link" href="contact.html">&nbsp;Contact&nbsp;</a>
 			</div>
-		<a href="about.html" class="link">About</a>
-		<a href="portfolio.html" class="link">Portfolio</a>
-		<a href="contact.html" class="link">Contact</a>
+		</div>
+	</nav>
+		
+
+	<div class="card-deck row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 my-5 mx-3">
+		<div class="col mb-4">
+			<div class="card portfolio-item">	
+				<img class="card-img-top rounded" src="portfolio-ferndalefitness.jpg" alt="Ferndale Fitness logo">
+				<div class="card-body">
+					<p class="card-text">Ferndale Fitness</p>
+				</div>
+			</div>	
+		</div>
+		<div class="col mb-4">		
+			<div class="card portfolio-item">	
+				<img class="card-img-top rounded" src="portfolio-dairydive.jpg" alt="Dairy Dive logo">
+				<div class="card-body">
+					<p class="card-text">Dairy Dive</p>
+				</div>
+			</div>	
+		</div>
+		<div class="col mb-4">		
+			<div class="card portfolio-item">	
+				<img class="card-img-top rounded" src="portfolio-owlhollow.jpg" alt="Owl Hollow logo">
+				<div class="card-body">
+					<p class="card-text">Owl Hollow Pub</p>
+				</div>
+			</div>	
+		</div>
+		<div class="col mb-4">		
+			<div class="card portfolio-item">	
+				<img class="card-img-top rounded" src="portfolio-caledonia.jpg" alt="Caledonia Home Improvement logo">
+				<div class="card-body">
+					<p class="card-text">Caledonia Home Improvement</p>
+				</div>
+			</div>	
+		</div>
+		<div class="col mb-4">		
+			<div class="card portfolio-item">	
+				<img class="card-img-top rounded" src="portfolio-daisydonut.jpg" alt="Daisy Donut logo">
+				<div class="card-body">
+					<p class="card-text">Daisy Donuts</p>
+				</div>
+			</div>	
+		</div>
 	</div>
-	
-<br>
-<br>	
-			<div class="wrapper">
-				<div class="services centered-container">
-				<div class="single-service">
-					<img class="responsive" src="portfolio-dairydive.jpg">
-					<p>
-					Dairy Dive
-					</p>
-				</div>
-			</div>
-		</div>
 
-		<div class="wrapper">
-				<div class="services centered-container">
-				<div class="single-service">
-					<img class="responsive" src="portfolio-owlhollow.jpg">
-					<p>
-					Owl Hollow Pub
-					</p>
-				</div>
-			</div>
-		</div>
-	
-		<div class="wrapper">
-				<div class="services centered-container">
-				<div class="single-service">
-					<img class="responsive" src="portfolio-caledonia.jpg">
-					<p>
-					Caledonia Home Improvement
-					</p>
-				</div>
-			</div>
-		</div>
-	
-			<div class="wrapper">
-				<div class="services centered-container">
-				<div class="single-service">
-					<img class="responsive" src="portfolio-daisydonut.jpg">
-					<p>
-					Daisy Donuts
-					</p>
-				</div>
-			</div>
-		</div>
-	
-
-
-
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </html>
