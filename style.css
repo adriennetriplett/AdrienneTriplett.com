@@ -135,7 +135,6 @@ body{
 }
 
 
-
 .portfolio-item {
 	padding: 1em;
 	color: #4D4D4D;
@@ -148,6 +147,12 @@ body{
 
 .portfolio-item:hover {
 	transform: scale(1.1);
+}
+
+a.portfolio-item,
+a.portfolio-item:hover {
+	color: #4D4D4D;
+	text-decoration: none;
 }
 
 #contact-form {
@@ -242,7 +247,7 @@ label.contact-label {
 
 .contact-btn-primary:hover {
     color: #fff;
-    background-color: #056d85;
+    background-color: #c98e00;
     border-color: #848381;
 }
 
