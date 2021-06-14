@@ -1,6 +1,9 @@
 body{
 	background-color: #056d85;
 	color: white;
+	background-image: url("background2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover 100%;
 	font-family: roboto, helvetica, arial, sans-serif;
 }
 
@@ -34,9 +37,57 @@ body{
 	background-size: auto 130px;
 }
 
+
+.main {
+	font-size: 9vw;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.secondary {
+	font-size: 9vw;
+	text-align: right;
+	margin-right: 10%;
+	overflow: hidden;
+	opacity: 0;
+
+}
+
+@keyframes slidein {
+	0%   { transform: translate(101%); opacity: 1; }
+	100% { transform: translate(0%); opacity: 1;}
+}
+
+.slide-left-one {
+	animation-delay: 1s;
+	animation-name: slidein;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.slide-left-two {
+	animation-delay: 2s;
+	animation-name: slidein;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
+.slide-left-three {
+	animation-delay: 3s;
+		animation-name: slidein;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
 .responsive{
 	max-width: 100%;
 	height: auto;
+
 }
 
 .headshot {
@@ -134,11 +185,6 @@ body{
 	animation-fill-mode: forwards;
 	top: 0;
 	transform: translate(0, -100%);
-}
-
-@keyframes showDetails {
-	0% { transform: translate3d(0, 100%, 0); }
-	100% { transform: translate3d(0, 0, 0); }
 }
 
 
