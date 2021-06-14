@@ -12,9 +12,6 @@ body {
 	background-size: cover;
 }
 
-.bg {
-;
-}
 
 .navbar {
 	background-color: white;
@@ -51,12 +48,15 @@ body {
 	font-size: 9vw;
 	font-weight: bold;
 	margin-top: 100px;
+	text-align: right;
+	margin-right: 5%;
+	margin-bottom: 150px;
 }
 
 .secondary {
 	font-size: 9vw;
 	text-align: right;
-	margin-right: 10%;
+	margin-right: 5%;
 	overflow: hidden;
 	opacity: 0;
 
@@ -336,7 +336,5 @@ input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, i
     width: 100%;
     text-align: center;
   }
-  	body {
-		background-size: cover 100%;
-	}
+
 }
