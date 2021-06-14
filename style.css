@@ -1,10 +1,19 @@
-body{
+html {
+	min-height: 100%;
+}
+
+body {
 	background-color: #056d85;
 	color: white;
-	background-image: url("background2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover 100%;
 	font-family: roboto, helvetica, arial, sans-serif;
+	background-image: url("background2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg {
+;
 }
 
 .navbar {
@@ -327,4 +336,7 @@ input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, i
     width: 100%;
     text-align: center;
   }
+  	body {
+		background-size: cover 100%;
+	}
 }
