@@ -12,7 +12,6 @@ body {
 	background-size: cover;
 }
 
-
 .navbar {
 	background-color: white;
 	transition: background-color 0.2s;
@@ -42,7 +41,6 @@ body {
 	background-position: center center;
 	background-size: auto 130px;
 }
-
 
 .main {
 	font-size: 9vw;
@@ -93,7 +91,11 @@ body {
 .responsive{
 	max-width: 100%;
 	height: auto;
+}
 
+.about {
+	display: flex;
+	justify-content: center;
 }
 
 .headshot {
@@ -105,6 +107,8 @@ body {
 .about-intro {
 	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
 	border-radius: 0.5em;
+	width: 80%;
+
 }
 
 .about-details {
@@ -112,6 +116,12 @@ body {
 	border-radius: 0.5em;
 	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
 	text-align: center;
+	width: 80%;
+}
+
+.line {
+	border-bottom: 1vmin solid #056d85;
+	margin-top: 1em;
 }
 
 .sectionhead {
