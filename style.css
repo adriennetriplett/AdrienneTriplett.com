@@ -10,7 +10,9 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-size: 20px;
 }
+
 
 .navbar {
 	background-color: white;
@@ -59,13 +61,33 @@ body {
 	opacity: 0;
 }
 
+.main2 {
+	font-size: 6vw;
+	font-weight: bold;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.secondary2 {
+	font-size: 5vw;
+	text-align: center;
+	overflow: hidden;
+	opacity: 0;
+}
+
 @keyframes slidein {
 	0%   { transform: translate(101%); opacity: 1; }
 	100% { transform: translate(0%); opacity: 1;}
 }
 
+@keyframes slideup {
+	0% { transform: translate3d(0, 300%, 0); opacity: 1;}
+	100% { transform: translate3d(0, 0, 0); opacity: 1;}
+}
+
 .slide-left-one {
-	animation-delay: 0.5s;
+	animation-delay: 0.3s;
 	animation-name: slidein;
 	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
@@ -73,7 +95,7 @@ body {
 }
 
 .slide-left-two {
-	animation-delay: 1.5s;
+	animation-delay: 1.3s;
 	animation-name: slidein;
 	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
@@ -81,8 +103,16 @@ body {
 }
 
 .slide-left-three {
-	animation-delay: 2.5s;
+	animation-delay: 2.3s;
 	animation-name: slidein;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.slide-left-four {
+	animation-delay: 0.3s;
+	animation-name: slideup;
 	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
@@ -104,11 +134,26 @@ body {
 	border-radius: 0.5em;
 }	
 
+.headshot2 {
+	display: inline-block;
+	margin: 1.5em;
+	margin-right: auto;
+	border-radius: 0.5em;
+	max-width: 256px;	
+}	
+
 .about-intro {
 	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
 	border-radius: 0.5em;
 	width: 80%;
+	margin: auto;
+}
 
+.about-intro2 {
+	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
+	border-radius: 0.5em;
+	width: 80%;
+	margin: auto;
 }
 
 .about-details {
@@ -171,6 +216,10 @@ body {
 	font-size: 4vw;
 	padding: 0.5em 0;
 	position: absolute;
+}
+
+.smallabout {
+	font-size: 3vw;
 }
 
 .animated-title > div div span {
