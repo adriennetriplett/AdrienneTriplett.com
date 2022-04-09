@@ -136,8 +136,8 @@ body {
 
 .headshot2 {
 	display: inline-block;
-	margin: 1.5em;
-	margin-right: auto;
+	margin: 3.5em;
+
 	border-radius: 0.5em;
 	max-width: 256px;	
 }	
