@@ -53,8 +53,14 @@
 						</div>
 					</div>
 					<div class="contact-form-group">
-						<button type="submit" id="contact-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block g-recaptcha"
-						data-sitekey="6LcAUV4fAAAAAIAFu6_0lzNMAZESwJSm2ud4zCJv" data-callback='onSubmit' data-action='submit'>Send Message</button>
+						<button 
+							type="submit" 
+							id="contact-button" 
+							class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block g-recaptcha"
+							data-sitekey="6LcAUV4fAAAAAIAFu6_0lzNMAZESwJSm2ud4zCJv" 
+							data-callback="onSubmit" 
+							data-action="submit"
+						>Send Message</button>
 					</div>
 				</form>
 			</div>
@@ -64,9 +70,9 @@
 	<script src="https://www.google.com/recaptcha/api.js"></script>
 	<script>
 		function onSubmit(token) {
-			console.log('onSubmit');
+			console.log("onSubmit");
 			document.getElementById("contact-form-id").submit();
-			console.log('after_submit()');
+			console.log("after_submit()");
 		}
 	</script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
