@@ -6,10 +6,10 @@ body {
 	background-color: #056d85;
 	color: white;
 	font-family: roboto, helvetica, arial, sans-serif;
-	background-image: url("images/background2.jpg");
+	/*background-image: url("images/background_option.png");
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: fill;*/
 	font-size: 20px;
 }
 
